@@ -6,7 +6,7 @@ int main(){
     while(1){
 	printf("Enter number");
 	scanf("%d",&a);
-	if(a==0){
+	if(a<=0){
 		break;
 	}
 	sum=sum+a;
